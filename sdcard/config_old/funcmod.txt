@@ -1,0 +1,7 @@
+-------------------------------------
+FileName=funcmod.txt
+FUNCMD=Function Mode
+File Revision=1.0.0
+-------------------------------------
+1) Function Mode:Debug/Test/Production
+[FunctionMode=Debug]

@@ -1,0 +1,19 @@
+-------------------------------------
+FileName=setup.txt
+SETUP=Main Settingss
+File Revision=1.0.0
+
+-------------------------------------
+1) Technical Support: (*)
+[TechnicalSupport=Quantico Services]
+
+2) Technical Support Contact: (*)
+[SupportContact=Juan Donayre]
+
+3) Technical Support Phone: (*)
+[SupportPhone=988-615-225]
+
+4) Language:English/Espanish (*)
+[Language=English]
+
+The "Language" variable specifies the language that will be used to display messages in the LCD.

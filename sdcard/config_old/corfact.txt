@@ -1,0 +1,20 @@
+-------------------------------------
+FileName=corfact.txt
+CORFACT=Correction Factors
+File Revision=1.0.0
+-------------------------------------
+
+1) Measurement Correction Factor 2V:
+[FACTCORR_2V=+0.0042]
+
+2) Measurement Correction Factor 12V_C1:
+[FACTCORR_12V_C1=+0.073]
+
+3) Measurement Correction Factor 12V_C2:
+[FACTCORR_12V_C2=+0.064]
+
+4) Measurement Correction Factor 12V_C3:
+[FACTCORR_12V_C3=+0.047]
+
+5) Measurement Correction Factor 12V_C4:
+[FACTCORR_12V_C4=+0.067]

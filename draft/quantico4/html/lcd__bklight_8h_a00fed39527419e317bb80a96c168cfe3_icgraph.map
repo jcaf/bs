@@ -1,0 +1,6 @@
+<map id="lcd_bklight_get_status" name="lcd_bklight_get_status">
+<area shape="rect" id="node2" href="$lcd__bklight_8h.html#a20acd6d765ce42ec9e8e01b028adcdda" title="lcd_bklight_timming" alt="" coords="217,5,367,32"/>
+<area shape="rect" id="node4" href="$lcd__bklight_8h.html#ab73642ca5fac52513953db284a687d29" title="lcd_bklight_is_ON" alt="" coords="225,56,359,83"/>
+<area shape="rect" id="node5" href="$lcd__bklight_8h.html#a426cbbc91b9e79a104ae630e8151ab04" title="lcd_bklight_job" alt="" coords="235,107,349,133"/>
+<area shape="rect" id="node3" href="$kb_8h.html#a7cbdfce66bef81146b8b858efde6b84c" title="kb_job" alt="" coords="415,31,477,57"/>
+</map>

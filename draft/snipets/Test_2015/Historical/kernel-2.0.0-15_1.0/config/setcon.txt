@@ -1,0 +1,31 @@
+-------------------------------------
+FileName=setcon.txt
+SETCON=Settings-Connections
+File Revision=1.0.0
+-------------------------------------
+0) MAC Address:
+Mac={0090,00A2,00DA,000E,0008,0051}
+
+1) Main Server Address:
+[Server1IP=192.168.1.45]
+
+2) Alternate Server Address:
+[Server2IP=192.168.1.46]
+
+3) Host/Domain: 
+[Host=quanticoservices.com]
+
+4) Directory:
+[Directory=monitor-v01-01]
+
+5) Customer ID:
+[CustomerID=151615]
+
+6) User ID:
+[UserID=154.126.154]
+
+7) API Key (Read):
+[ApiKeyR=1S1F23DS25BVDG21]
+
+6) API Key (Write):
+[ApiKeyW=2S25AÑPLERPTOKFF]

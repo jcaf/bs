@@ -1,0 +1,16 @@
+-------------------------------------
+FileName=specs.txt
+SPECS=Specifications
+File Revision=1.0.0
+-------------------------------------
+Main Board Part Number:
+[PartNumber=MB-2.0.0-15]
+
+Software Version:
+[SoftwareVersion=kernel-2.0.0-15]
+
+Main Board Serial Number:
+[SerialNumber=40773206]
+
+Customer ID:
+[CustomerID=151615]

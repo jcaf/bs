@@ -1,0 +1,53 @@
+-------------------------------------
+FileName=corfact.txt
+CORFACT=Correction Factors
+File Revision=1.0.0
+-------------------------------------
+
+1) Measurement Correction Factor 2V:
+[FACTCORR_2V=+0.0042]
+
+2) Measurement Correction Factor 12V_C1:
+[FACTCORR_12V_C1=+0.115] //0.073
+
+3) Measurement Correction Factor 12V_C2:
+[FACTCORR_12V_C2=+0.111] //0.064
+
+4) Measurement Correction Factor 12V_C3:
+[FACTCORR_12V_C3=+0.063] //0.047
+
+5) Measurement Correction Factor 12V_C4:
+[FACTCORR_12V_C4=+0.077] //0.067
+
+6) Shunt Correction Factor:
+[SHUNT_FC_M=1]  // Applied to all shunts in all boards. Multiplier
+
+7)
+[SHUNT_FC_A=0]  // Applied to all shunts in all boards. Adder
+
+8) T1 Temperature:
+[T1_FC_A=0]   // Applied to all sensors in all boards. Only SUM
+
+9) T2 Temperature:
+[T2_FC_A=0]   // Applied to all sensors in all boards. Only SUM
+
+10) T3 Temperature:
+[T3_FC_A=0]   // Applied to all sensors in all boards. Only SUM
+
+11) T4 Temperature:
+[T4_FC_A=0]   // Applied to all sensors in all boards. Only SUM
+
+12) T5 Temperature:
+[T5_FC_A=0]   // Applied to all sensors in all boards. Only SUM
+
+13) T6 Temperature:
+[T6_FC_A=0]   // Applied to all sensors in all boards. Only SUM
+
+14) T7 Temperature:
+[T7_FC_A=0]   // Applied to all sensors in all boards. Only SUM
+
+15) T8 Temperature:
+[T8_FC_A=0]   // Applied to all sensors in all boards. Only SUM
+
+
+

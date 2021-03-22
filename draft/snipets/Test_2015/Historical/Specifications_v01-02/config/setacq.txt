@@ -1,0 +1,5 @@
+-------------------------------------
+FileName=setacq.txt
+SETACQ=Settings-Acquisition Parameters
+File Revision=1.0.0
+-------------------------------------

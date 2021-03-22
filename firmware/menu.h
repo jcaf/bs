@@ -1,0 +1,181 @@
+#ifndef MENU_H_
+#define MENU_H_
+
+//#include "system.h"
+//typedef void (*PTRFX_retVOID)(void);
+#include "types.h"
+
+#define TASKMAN_SIGN_CLEAR 0
+#define TASKMAN_SIGN_ENTER 1
+#define TASKMAN_SIGN_EXIT 2
+
+extern int8_t thismenu_sm0;
+extern int8_t thismenu_sm1;
+extern int8_t thismenu_sm0_last;
+extern unsigned long thismenu_last_millis0;
+extern int8_t temp0_int8_t;
+
+extern int8_t app0_sm0;
+extern int8_t app0_sm1;
+//extern int8_t app0_sm2;
+
+extern int8_t app1_sm0;
+extern int8_t app1_sm1;
+//extern int8_t app1_sm2;
+
+extern int8_t app2_sm0;
+extern int8_t app2_sm1;
+//extern int8_t app2_sm2;
+
+struct _gpmenu
+{
+    int8_t sm0;
+    int8_t sm1;
+    int8_t opt_sel;
+};
+extern struct _gpmenu  gpmenu[2];
+
+extern int8_t men;//main menu
+extern int8_t men_last;
+extern int8_t submen;//sub menu
+extern int8_t submen_last;
+
+void menu_setMenu(int8_t m);
+int8_t menu_getMenu(void);
+void menu_setSubMenu(int8_t m);
+int8_t menu_getSubMenu(void);
+void menu_detect_changeMenu_changeSubMenu(void);
+
+#define MAIN_MENU_NUMMAX 8
+
+//typedef void (*const PTRFX_retVOID_)(void);
+
+extern PTRFX_retVOID *menu_v[MAIN_MENU_NUMMAX+1];
+//extern const PTRFX_retVOID *const menu_v[MAIN_MENU_NUMMAX+1] PROGMEM;
+
+//#define MGO_MAIN_MENU -1
+enum _MGO_MENU
+{
+    MGO_MAIN_MENU = -1,//1,2,....
+    MGO_MBKGROUND=0,
+};
+
+enum _MGO_BKGROUND
+{
+    MGO_MBKGROUND_SHOWSTACKSUMMARY_JOB,
+    MGO_MBKGROUND_INSIDESTACKSUMMARY_JOB,
+    MGO_MBKGROUND_STACKINDETAIL_V_JOB,
+    MGO_MBKGROUND_STACKINDETAIL_E_JOB,
+    MGO_MBKGROUND_STACKINDETAIL_E_UNDERVOLT_JOB,
+    MGO_MBKGROUND_STACKINDETAIL_E_OVERVOLT_JOB,
+    MGO_MBKGROUND_STACKINDETAIL_E_OPENWIRE_JOB,
+};
+
+enum _MGO_INPUT
+{
+    MGO_MINPUT_MENU_JOB,
+    MGO_MINPUT_DIGITALINPUT_JOB,
+    MGO_MINPUT_ANALOGINPUT_JOB,
+    MGO_MINPUT_FUELSENSOR_JOB
+};
+
+//enum _MGO_OUTPUT
+//{
+//};
+enum _MGO_LOGICAL_FX
+{
+    MGO_MLOGF_MAIN_JOB,
+    MGO_MLOGF_CONFIG_JOB,
+    MGO_MLOGF_NEWFX_JOB,
+    //
+        //MGO_MLOGF_NEWFX_EXP_NEW_JOB,
+        //MGO_MLOGF_ASSIGFX_JOB,
+    //
+    MGO_MLOGF_EDITFX_JOB,
+    MGO_MLOGF_EXEMANAGER_JOB,
+    MGO_MLOGF_MONITORFX_JOB,
+
+};
+
+
+enum _MGO_SETTIME
+{
+    MGO_MSETTIME_DO,
+    MGO_MSETTIME_SAVE_JOB,
+};
+
+enum _MGO_SETDATE
+{
+    MGO_MSETDATE_DO,
+    MGO_MSETDATE_SAVE_JOB,
+};
+
+
+enum _MGO_FUELSENSOR
+{
+    MGO_MFUELSENSOR_WARNING_JOB,
+    MGO_MFUELSENSOR_MENU_JOB,
+    MGO_MFUELSENSOR_MODELOFSENSOR_JOB,
+    //
+    MGO_MFUELSENSOR_CALIBRATION_JOB,
+    MGO_MFUELSENSOR_FULLZEROCALIBRATION_JOB,
+    MGO_MFUELSENSOR_LENGTHTANKDEPTH_JOB,
+    MGO_MFUELSENSOR_LENGTHTANKDEPTH_ERRORCONSISTENCY_JOB,
+    MGO_MFUELSENSOR_LENGTHTANKDEPTH_NOERRORCONSISTENCY_JOB,
+    //
+    MGO_MFUELSENSOR_TANK_JOB,
+    MGO_MFUELSENSOR_TYPEOFTANK_JOB,
+    MGO_MFUELSENSOR_RECTANGULARVOLUME_JOB,
+    MGO_MFUELSENSOR_RECTANGULARVOLUMEN_SAVE_AND_EXIT_JOB,
+
+    MGO_MFUELSENSOR_IRRTANK_MENU_JOB,
+    //
+    MGO_MFUELSENSOR_IRRTANK_SPLINETABLE_UNITS_JOB,
+    MGO_MFUELSENSOR_IRRTANK_SPLINETABLE_UNITS_LENGTHUNITS_JOB,
+    MGO_MFUELSENSOR_IRRTANK_SPLINETABLE_UNITS_VOLUMENUNITS_JOB,
+    //
+    MGO_MFUELSENSOR_IRRTANK_SPLINETABLE_NEW_JOB,
+    //
+    MGO_MFUELSENSOR_IRRTANK_SPLINETABLE_MODIFNODE_VIEWERNODE_JOB,
+    MGO_MFUELSENSOR_IRRTANK_SPLINETABLE_MODIFNODE_JOB,
+    //
+    MGO_MFUELSENSOR_IRRTANK_SPLINETABLE_DELNODE_VIEWERNODE_JOB,
+
+    //
+    MGO_MFUELSENSOR_IRRTANK_SPLINETABLE_INSNODE_VIEWERNODE_JOB,
+    MGO_MFUELSENSOR_IRRTANK_SPLINETABLE_INSNODE_JOB,
+
+    MGO_MFUELSENSOR_OUTPUTTYPE_JOB,
+    MGO_MFUELSENSOR_OUTPUTTYPE_LENGTHUNITS_JOB,
+    MGO_MFUELSENSOR_OUTPUTTYPE_VOLUMENUNITS_JOB,
+};
+
+
+enum _MENU_GUI_EVENT
+{
+    MENU_GUI_EVENT_WAITING_ACTION,
+//    MENU_GUI_EVENT_ACTION_YES,
+//    MENU_GUI_EVENT_ACTION_NO,
+    MENU_GUI_EVENT_OPTION_SELECTED,
+    MENU_GUI_EVENT_ESCAPE,
+};
+
+enum _GENERIC_YESNO_SELECT
+{
+    GENERIC_YESNO_SELECT_YES=0,
+    GENERIC_YESNO_SELECT_NO=0,
+};
+
+enum
+{
+    MGENERIC_CAPTION_DELETE,
+    MGENERIC_CAPTION_EXIT,
+    MGENERIC_CAPTION_SAVE_NEW_NODE,
+    MGENERIC_CAPTION_ENTER_NEW_NODE,
+    MGENERIC_CAPTION_SAVE_CHANGES
+};
+
+int8_t menu_generic_yesno(const char *caption, const char *question, int8_t *opt_dest);
+#endif // MENU_H_
+
+

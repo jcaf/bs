@@ -1,0 +1,16 @@
+-------------------------------------
+FileName=funcmod.txt
+FUNCMD=Function Mode
+File Revision=1.0.0
+-------------------------------------
+1) Function Mode:Test/Production
+[FunctionMode=TEST]
+
+Test Mode. Main functions:
+
+Production. Main functions:
+
+2) Language:English/Español
+[Language=English]
+The "Language" variable specifies the language that will be used to display
+messages in the LCD. This variable anly affects messages of PRODUCTION MODE 

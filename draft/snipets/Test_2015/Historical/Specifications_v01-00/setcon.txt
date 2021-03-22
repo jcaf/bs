@@ -1,0 +1,19 @@
+-------------------------------------
+FileName=setcon.txt
+SETCON=Settings-Connections
+File Revision=1.0.0
+-------------------------------------
+Main Server Address:
+[IP1=192.168.1.45]
+
+Alternate Server Address:
+[IP2=192.168.1.46]
+
+User ID:
+[UserID=154.126.154]
+
+API Key (Read):
+[ApiKeyR=1S1F23DS25BVDG21]
+
+API Key (Write):
+[ApiKeyW=2S25AÑPLERPTOKFF]

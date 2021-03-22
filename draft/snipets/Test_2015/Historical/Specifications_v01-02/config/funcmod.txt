@@ -1,0 +1,13 @@
+-------------------------------------
+FileName=funcmod.txt
+FUNCMD=Function Mode
+File Revision=1.0.0
+-------------------------------------
+1) Function Mode:Test/Production
+[FunctionMode=TEST]
+
+Test Mode. Main functions:
+
+Production. Main functions:
+
+

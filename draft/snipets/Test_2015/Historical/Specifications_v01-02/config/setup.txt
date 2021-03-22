@@ -1,0 +1,20 @@
+-------------------------------------
+FileName=setup.txt
+SETUP=Main Settingss
+File Revision=1.0.0
+-------------------------------------
+1) Technical Support:
+[TechnicalSupport=TEMPEL GROUP]
+
+2) Technical Support Contact:
+[TechSupportContact=]
+
+3) Technical Support Phone:
+[TechSupportPhone=]
+
+4) Language:English/Español
+[Language=English]
+The "Language" variable specifies the language that will be used to display
+messages in the LCD. This variable anly affects messages of PRODUCTION MODE 
+
+ 

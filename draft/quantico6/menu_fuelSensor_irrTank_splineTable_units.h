@@ -1,0 +1,9 @@
+#ifndef MENU_FUELSENSOR_IRRTANK_SPLINETABLE_UNITS_H_
+#define MENU_FUELSENSOR_IRRTANK_SPLINETABLE_UNITS_H_
+
+void fuelsensor_get_irregular_unitsOfTable_volumenUnits_name(uint8_t type, char *buf);
+
+void mFuelSensor_irrTank_spTable_units_job(void);
+void mFuelSensor_irrTank_spTable_units_lengthUnits_job(void);
+void mFuelSensor_irrTank_spTable_units_volumenUnits_job(void);
+#endif // MENU_FUELSENSOR_IRRTANK_UNITSOFTABLE_H_

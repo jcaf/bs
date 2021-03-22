@@ -1,0 +1,10 @@
+<map id="lcd_show_disp" name="lcd_show_disp">
+<area shape="rect" id="node2" href="$menu__main_menu_8cpp.html#adbee553128fce8bb6d4880b91e42eaf9" title="mainMenuSummary_job" alt="" coords="183,5,362,32"/>
+<area shape="rect" id="node4" href="$menu__stack_in_detail___e_8h.html#aa79a5986e98b789124f6cb72361e0df9" title="stackInDetail_E_job" alt="" coords="200,56,345,83"/>
+<area shape="rect" id="node6" href="$menu__stack_in_detail___e_8h.html#a1f342d99162b39872be3297db2379f1f" title="stackInDetail_E_UnderVolt_job" alt="" coords="165,107,380,133"/>
+<area shape="rect" id="node7" href="$menu__stack_in_detail___e_8h.html#a834134d49e5a1737e1a3496db61b01be" title="stackInDetail_E_OverVolt_job" alt="" coords="169,157,376,184"/>
+<area shape="rect" id="node8" href="$menu__stack_in_detail___e_8h.html#af0e6c4529fa146cedc0cc8a48c4d702a" title="stackInDetail_E_OpenWire_job" alt="" coords="166,208,379,235"/>
+<area shape="rect" id="node9" href="$menu__stack_in_detail___v_8h.html#a928427b40980190ed71c85b0fd3b3cfa" title="stackInDetail_V_job" alt="" coords="199,259,346,285"/>
+<area shape="rect" id="node3" href="$menu__main_menu_8h.html#a05c148d31d93686d38f6e472b877b135" title="main_menu_job" alt="" coords="440,5,564,32"/>
+<area shape="rect" id="node5" href="$menu__bkground_8h.html#a2bab706f03bf075c9862f4a54983aa5a" title="menuBkGround_job" alt="" coords="428,157,576,184"/>
+</map>

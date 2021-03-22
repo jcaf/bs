@@ -1,0 +1,5 @@
+1.-
+/home/jcaf/Downloads/arduino-1.6.9/libraries/EthernetDHCP
+
+2
+Copy the Ethernet folder to the libraries folder under your sketchbook folder

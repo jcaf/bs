@@ -1,0 +1,23 @@
+-------------------------------------
+FileName=setacq.txt
+SETACQ=Settings-Acquisition Parameters
+File Revision=1.0.0
+-------------------------------------
+
+1) Shunt Voltage Full Scale:
+[shuntVoltFullScale=0.05]
+
+2) Shunt Rated Current:
+[shuntRatedCurrent=1000]
+
+3) UnderVoltage 2V:
+[uv_2v=1.8]
+
+4) OverVoltage 2V:
+[ov_2v=3.5]
+
+5) UnderVoltage 12V:
+[uv_12v_S3C=10.0]
+
+6) OverVoltage 12V:
+[ov_12v_S3C=13.5]

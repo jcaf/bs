@@ -1,0 +1,15 @@
+-------------------------------------
+FileName=setup.txt
+SETUP=Main Settingss
+File Revision=1.0.0
+-------------------------------------
+1) Technical Support:
+[TechnicalSupport=TEMPEL GROUP]
+
+2) Technical Support Contact:
+[TechSupportContact=]
+
+3) Technical Support Phone:
+[TechSupportPhone=]
+
+ 

@@ -1,0 +1,7 @@
+#ifndef MENU_FUELSENSOR_IRRTANK_SPLINETABLE_DELNODE_H_
+#define MENU_FUELSENSOR_IRRTANK_SPLINETABLE_DELNODE_H_
+
+void mFuelSensor_irrTank_spTable_delNode_viewerNode_job(void);
+void mFuelSensor_irrTank_spTable_delNode_job(void);
+
+#endif // MENU_FUELSENSOR_IRRTANK_SPLINETABLE_DELNODE_H_

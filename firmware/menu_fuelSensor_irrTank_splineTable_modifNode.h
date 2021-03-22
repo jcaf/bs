@@ -1,0 +1,8 @@
+#ifndef MENU_FUELSENSOR_IRRTANK_SPLINETABLE_MODIFNODE_H_
+#define MENU_FUELSENSOR_IRRTANK_SPLINETABLE_MODIFNODE_H_
+
+void mFuelSensor_irrTank_spTable_modifNode_viewerNode_job(void);
+void mFuelSensor_irrTank_spTable_modifNode_job(void);
+
+
+#endif

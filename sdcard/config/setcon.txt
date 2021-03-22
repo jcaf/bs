@@ -1,0 +1,37 @@
+-------------------------------------
+FileName=setcon.txt
+SETCON=Settings-Connections
+File Revision=1.0.0
+-------------------------------------
+1) MAC Address:
+[MAC=0x90,0xA2,0xDA,0x0E,0x08,0x51]
+
+2) Main Server Address:
+[Server1IP=192.241.143.67]
+
+3) Main Server Port:
+[Server1Port=8085]
+
+4) Alternate Server Address:
+[Server2IP=192.168.1.46]
+
+5) Alternate Server Port:
+[Server2Port=8085]
+
+6) Host/Domain: (*)
+[Host=quanticoservices.com]
+
+7) Directory:
+[Directory=/api/battery]
+
+8) Customer ID:
+[CustomerID=151615]
+
+9) User ID:
+[UserID=154.126.154]
+
+10) API Key (Read):
+[ApiKeyR=1S1F23DS25BVDG21]
+
+11) API Key (Write):
+[ApiKeyW=2S25AHPLERPTOKFF]

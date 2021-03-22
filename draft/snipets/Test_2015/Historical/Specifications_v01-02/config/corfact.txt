@@ -1,0 +1,5 @@
+-------------------------------------
+FileName=corfact.txt
+CORFACT=Correction Factors
+File Revision=1.0.0
+-------------------------------------
